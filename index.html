@@ -1,79 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goofy Girl Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles/global.css" />
-  </head>
-  <body>
-    <header>
-      <img src="assets/images/Prof. Photo.jpg" alt="Profile Logo" class="logo" />
-    </header>
-    <main>
-      <h1>Yomachi Nwosu Portfolio</h1>
-      <p>A professional with a passion for providing financial and software developer services.</p>
-      <button>Learn more</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goofy Girl Portfolio</title>
+  <link rel="stylesheet" href="styles/global.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/images/Prof. Photo.jpg" alt="Profile Logo" class="logo" />
+  </header>
 
-      <section id="about">
-        <h2>About Me</h2>
-        <ul>
-          <li>Tech savvy software developer</li>
-          <li>Passionate about technology</li>
-          <li>Accounting professional</li>
-          <li>Goofy mentor and life coach</li>
-        </ul>
+  <main>
+    <h1>Yomachi Nwosu Portfolio</h1>
+    <p>A professional with a passion for providing financial and software developer services.</p>
+    <button>Learn more</button>
 
-      </section id="projects">
+    <section id="about">
+      <h2>About Me</h2>
+      <ul>
+        <li>Tech savvy software developer</li>
+        <li>Passionate about technology</li>
+        <li>Accounting professional</li>
+        <li>Goofy mentor and life coach</li>
+      </ul>
+    </section>
+
+    <section id="projects">
       <h2>My projects</h2>
-      <div class = "project">
+      <div class="project">
         <h3>StyleMe App</h3>
-        <p>A mobile app that uses AI to suggest custom outfit combinations for users based on their body type, skin tone, and fashion mood of the day.</p>
-        
+        <p>A mobile app that uses AI to suggest custom outfit combinations for users.</p>
+      </div>
 
       <div class="project">
         <h3>Payshutter</h3>
-        <p>A personal finance web app that helps users track expenses, create budgets, and receive alerts for overspending.</p>
-        
+        <p>A personal finance web app that helps users track expenses.</p>
+      </div>
+    </section>
 
-    </section id="testimonials">
-    <h2>What People Say</h2>
-    u
-    <blockquote>
-      “Working with Goofy Girl was a dream. She brought our vision to life and made the tech journey so fun!” – Ugonna B., Founder, ChicTech
-    </blockquote>
-    <blockquote>
-      “An extraordinary mix of creativity and logic — she can code and design a unique webpage.” – Kunle. J J, CEO, Crystal clear
-    </blockquote>
-    <blockquote>
-      “Her mentoring changed my life — I went from zero to launching my own freelance design business!” – Blessing Umoren., Life Coach Mentee
-    </blockquote>
-  </section>
+    <section id="testimonials">
+      <h2>What People Say</h2>
+      <blockquote>“Working with Goofy Girl was a dream.” – Ugonna B.</blockquote>
+      <blockquote>“She can code and design a unique webpage.” – Kunle J.J</blockquote>
+      <blockquote>“Her mentoring changed my life!” – Blessing Umoren</blockquote>
+    </section>
+
+    <section id="contact">
       <h2>Contact Me</h2>
-      <p>If you would like to get in touch, please reach out me via the form below:</p>
-      <form id="contact-form"></form>
+      <p>If you would like to get in touch, please reach out to me via the form below:</p>
+
+      <div class="form-group">
         <label for="name">Your Name</label>
         <input type="text" id="name" name="name" required />
-    
+      </div>
+
+      <div class="form-group">
         <label for="email">Your Email</label>
         <input type="email" id="email" name="email" required />
-    
+      </div>
+
+      <div class="form-group">
         <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5"></textarea>
-    
-        <button type="submit">Send</button>
+        <textarea id="message" name="Message" rows="5" required></textarea>
+      </div>
+      <div class="form-group"></div>
+        <label for="age">Age</label>
+        <textarea type="age" id="age"></textarea>
+      </div>
+      
+        <button type="submit">submit</button>
       </form>
-      <p>Or reach out to me on social media:</p>
+
+      <div id="form-response"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <p>Or reach out to me on social media:</p>
       <ul class="social-media-links">
         <li><a href="https://www.linkedin.com/in/yomachi-nwosu/" target="_blank">LinkedIn</a></li>
-        <li><a href="@yomachi" target="_blank">Instagram</a></li>
-      <script src="script.js"></script>
-    </section>
-    </main>
-    <script src="script.js"></script>
-    
-  </body>
+        <li><a href="https://www.instagram.com/yomadine?igsh=NHZ2Ym1sZmV5YjR3&utm_source=qr" target="_blank">Instagram</a></li>
+        <footer>
+          <p>&copy; 2023 Yomachi Nwosu. All rights reserved.</p>    
+</body>
 </html>

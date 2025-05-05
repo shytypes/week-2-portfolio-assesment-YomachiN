@@ -1,10 +1,74 @@
 /* remove default browser spacing*/
+*/* Reset default spacing */
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
- * and is available for your use
- * */
+body {
+  font-family: 'JetBrains Mono', monospace, sans-serif;
+  background: linear-gradient(to right, #f0f0f0, #e2e2e2);
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+  background: #e29f9f;
+  color: #0a0a0a;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+main {
+  padding: 100px 20px 20px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #6b3e99;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #6b3e99;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#about h2 {
+  margin-top: 40px;
+  color:#0f0f0f;
+}
+
+#about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  width: 100px; /* fixed width for alignment */
+  margin-right: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  flex: 1;
+  padding: 5px;
+}
