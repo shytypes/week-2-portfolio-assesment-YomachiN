@@ -1,27 +1,92 @@
 <!doctype html>
 <html lang="en">
-  <!-- DO NOT CHANGE CODE WITHIN THE HEAD ELEMENT -->
-  <!-- UNLESS YOU KNOW WHAT YOU"RE DOING-->
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <!-- add fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- local style -->
-    <link rel="stylesheet" href="styles/global.css" />
-  </head>
-  <body>
-    <!-- Header Area -->
-    <header></header>
-    <!-- Main Area -->
-    <main>
-      <h1>My Amazing Portfolio</h1>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goofy Girl Portfolio</title>
+  <link rel="stylesheet" href="styles/global.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/images/Prof. Photo.jpg" alt="Profile Logo" class="logo" />
+  </header>
+
+  <main>
+    <h1>Yomachi Nwosu Portfolio</h1>
+    <p>A professional with a passion for providing financial and software developer services.</p>
+    <button>Learn more</button>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <ul>
+        <li>Tech savvy software developer</li>
+        <li>Passionate about technology</li>
+        <li>Accounting professional</li>
+        <li>Goofy mentor and life coach</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>My projects</h2>
+      <div class="project">
+        <h3>StyleMe App</h3>
+        <p>A mobile app that uses AI to suggest custom outfit combinations for users.</p>
+      </div>
+
+      <div class="project">
+        <h3>Payshutter</h3>
+        <p>A personal finance web app that helps users track expenses.</p>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>What People Say</h2>
+      <blockquote>“Working with Goofy Girl was a dream.” – Ugonna B.</blockquote>
+      <blockquote>“She can code and design a unique webpage.” – Kunle J.J</blockquote>
+      <blockquote>“Her mentoring changed my life!” – Blessing Umoren</blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>If you would like to get in touch, please reach out to me via the form below:</p>
+    
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+    
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+    
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+    
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" />
+        </div>
+    
+        <button type="submit">Submit</button>
+      </form>
+    
+      <div id="form-response"></div>
+    </section>
+
+      <div id="form-response"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <p>Or reach out to me on social media:</p>
+      <ul class="social-media-links">
+        <li><a href="https://www.linkedin.com/in/yomachi-nwosu/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/yomadine?igsh=NHZ2Ym1sZmV5YjR3&utm_source=qr" target="_blank">Instagram</a></li>
+        <footer>
+          <p>&copy; 2023 Yomachi Nwosu. All rights reserved.</p>    
+</body>
 </html>
